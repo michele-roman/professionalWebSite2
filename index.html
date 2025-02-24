@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Freelance Data Engineer & AI Developer</title>
+  <!-- Minimal inline styles for quick reference -->
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #ffffff;
+      color: #333;
+    }
+
+    header {
+      background-color: #0a2951;
+      /* Deep blue accent */
+      padding: 20px;
+      text-align: center;
+    }
+
+    header nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    header nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Hero Section */
+    #hero {
+      background: url('hero-image.jpg') center/cover no-repeat;
+      /* You can replace hero-image.jpg with your reference image or remove background if not needed */
+      color: #fff;
+      text-align: center;
+      padding: 80px 20px;
+      background-color: #0a2951;
+      /* Fallback deep blue if image not available */
+    }
+
+    #hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    #hero p {
+      font-size: 1.2rem;
+    }
+
+    /* Section Headings */
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      text-align: center;
+      color: #0a2951;
+      /* Deep blue accent */
+    }
+
+    /* About Section */
+    #about {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    #about p {
+      max-width: 700px;
+      margin: 10px auto;
+      line-height: 1.6;
+    }
+
+    #about ul {
+      list-style: disc;
+      margin: 20px auto;
+      padding: 0;
+      max-width: 700px;
+      text-align: left;
+    }
+
+    #about ul li {
+      margin-bottom: 5px;
+    }
+
+    #about .cv-link {
+      margin-top: 20px;
+      display: inline-block;
+      background-color: #0a2951;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+
+    /* Portfolio Section */
+    #portfolio {
+      padding: 60px 20px;
+      text-align: center;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .carousel-container {
+      position: relative;
+      margin: 40px auto;
+      max-width: 600px;
+      overflow: hidden;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .carousel-slides {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+      /* Each slide can be a presentation image or embedded content */
+    }
+
+    .carousel-slide {
+      min-width: 100%;
+      background-color: #f9f9f9;
+      text-align: center;
+      padding: 40px;
+    }
+
+    /* Services Section */
+    #services {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    #services ul {
+      list-style: none;
+      padding: 0;
+      margin: 40px auto;
+      max-width: 600px;
+    }
+
+    #services ul li {
+      background-color: #f2f2f2;
+      margin-bottom: 10px;
+      padding: 15px;
+      border-radius: 4px;
+    }
+
+    /* Contact Section */
+    #contact {
+      padding: 60px 20px;
+      text-align: center;
+      background-color: #f9f9f9;
+    }
+
+    #contact p {
+      margin-bottom: 20px;
+    }
+
+    #contact a {
+      color: #0a2951;
+      text-decoration: none;
+    }
+
+    #contact a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background-color: #0a2951;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      #hero h1 {
+        font-size: 2rem;
+      }
+
+      #hero p {
+        font-size: 1rem;
+      }
+
+      header nav a {
+        display: inline-block;
+        margin: 5px 10px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Header / Navigation -->
+  <header>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#services">Services</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section (Optional) -->
+  <section id="hero">
+    <h1>Freelance Data Engineer & AI Developer</h1>
+    <p>Informed Decisions & Smart Processes</p>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About</h2>
+    <p>
+      I am a Freelance Data Engineer & AI Developer specializing in transforming
+      complex data into actionable insights. I leverage tools such as
+      <strong>SQL, Snowflake, AWS, Matlab, Python, Langchain,</strong> and
+      <strong>PowerBI</strong> to help companies make informed decisions and
+      optimize data-driven processes.
+    </p>
+    <p>
+      <strong>Mission:</strong> To empower organizations with robust data solutions
+      that drive efficiency, enable strategic growth, and facilitate smarter
+      decision-making.
+    </p>
+
+    <!-- Link to CV (PDF) -->
+    <a href="content/CV.pdf" class="cv-link" target="_blank">Download My CV (PDF)</a>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <p>
+      Below you'll find some recent presentations and projects, also available on my GitHub repository.
+    </p>
+    <!-- Carousel Bootstrap -->
+    <div id="portfolioCarousel" class="carousel slide" data-bs-ride="carousel">
+      <!-- Indicatori -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#portfolioCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <!-- Slides -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="d-block w-100 p-5 bg-light text-center">
+            <h3>
+              AI Application for Interactive Financial Report Analysis (LLM + RAG)</h3>
+            <p>An advanced application for interactive financial report analysis, leveraging AI to make data
+              interpretation more intuitive and efficient.</p>
+            <a href="content/presentation1.pdf" class="btn btn-primary" target="_blank">View Presentation</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-block w-100 p-5 bg-light text-center">
+            <h3>NVIDIA in-depth stock analysis</h3>
+            <p>In this project, I conducted a comprehensive analysis of NVIDIA’s stock, leveraging advanced business and
+              data analytics techniques.</p>
+            <a href="content/presentation2.pdf" class="btn btn-primary" target="_blank">View Presentation</a>
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="d-block w-100 p-5 bg-light text-center">
+            <h3>Development of Trading Software for Back-testing</h3>
+            <p>As part of my portfolio, I developed a trading strategy evaluation software. This project showcases the
+              problem statement, the development process, and the key conclusions.</p>
+            <a href="content/presentation3.pdf" class="btn btn-primary" target="_blank">View Presentation</a>
+          </div>
+        </div>
+      </div>
+      <!-- Controlli -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Precedente</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#portfolioCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Successivo</span>
+      </button>
+    </div>
+  </section>
+
+
+
+  <!-- Services Section -->
+  <section id="services">
+    <h2>Services</h2>
+    <ul>
+      <li><strong>ETL & Data Integration</strong> – Seamless data flows for accurate analytics.</li>
+      <li><strong>Data Management Platforms</strong> – Architecture, design, and maintenance of data systems.</li>
+      <li><strong>Optimization & Predictive Models</strong> – Model-based and AI-driven solutions for forecasting and
+        decision support.
+      </li>
+      <li><strong>Process Automation</strong> – Streamlined workflows for enhanced productivity.</li>
+      <li><strong>Advanced AI Solutions</strong> – Custom ML and AI applications to tackle complex challenges.</li>
+    </ul>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>If you would like to discuss about projects or partnership, feel free to reach out:</p>
+    <p><strong>Phone:</strong> +39 3482856251</p>
+    <p><strong>Email:</strong> <a href="mailto:romanmichele92@gmail.com">romanmichele92@gmail.com</a></p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/michele-roman-data-engineer-sql-snowflake-matlab-phyton-langchain-powerbi/
+        target=" _blank">linkedin.com/in/michele-roman</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Roman Michele - All rights reserved.</p>
+  </footer>
+
+  <!-- Optional JavaScript for carousel functionality or other interactive elements -->
+  <!-- <script src="script.js"></script> -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>

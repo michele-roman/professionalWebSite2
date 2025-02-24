@@ -1,0 +1,242 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #333;
+}
+
+/* Header & Navigation */
+header {
+  background-color: #0a2951;
+  /* Deep blue accent */
+  padding: 20px;
+  text-align: center;
+}
+
+header nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+#hero {
+  background-color: #0a2951;
+  background-image: url('hero-image.jpg');
+  /* Replace with your own image or remove if not needed */
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+#hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+#hero p {
+  font-size: 1.2rem;
+}
+
+/* Section Headings */
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #0a2951;
+  /* Deep blue accent */
+}
+
+/* About Section */
+#about {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#about p {
+  max-width: 700px;
+  margin: 10px auto;
+  line-height: 1.6;
+}
+
+#about ul {
+  list-style: disc;
+  margin: 20px auto;
+  padding: 0;
+  max-width: 700px;
+  text-align: left;
+}
+
+#about ul li {
+  margin-bottom: 5px;
+}
+
+/* CV Link Button */
+.cv-link {
+  margin-top: 20px;
+  display: inline-block;
+  background-color: #0a2951;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.cv-link:hover {
+  background-color: #08306c;
+}
+
+/* Portfolio Section */
+#portfolio {
+  padding: 60px 20px;
+  text-align: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Carousel Container */
+.carousel-container {
+  position: relative;
+  margin: 40px auto;
+  max-width: 600px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.carousel-slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+  min-width: 100%;
+  background-color: #f9f9f9;
+  text-align: center;
+  padding: 40px;
+}
+
+/* Services Section */
+#services {
+  padding: 60px 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#services ul {
+  list-style: none;
+  padding: 0;
+  margin: 40px auto;
+  max-width: 600px;
+}
+
+#services ul li {
+  background-color: #f2f2f2;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+/* Contact Section */
+#contact {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+#contact a {
+  color: #0a2951;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: #0a2951;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 2rem;
+  }
+
+  #hero p {
+    font-size: 1rem;
+  }
+
+  header nav a {
+    display: inline-block;
+    margin: 5px 10px;
+  }
+}
+
+/* Carousel Container (already in your CSS) */
+.carousel-container {
+  position: relative;
+  margin: 40px auto;
+  max-width: 600px;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Carousel Slides (already in your CSS) */
+.carousel-slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Individual Slide (already in your CSS) */
+.carousel-slide {
+  min-width: 100%;
+  background-color: #f9f9f9;
+  text-align: center;
+  padding: 40px;
+}
+
+/* Carousel Controls */
+.carousel-control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #0a2951;
+  /* Deep blue accent */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 4px;
+  opacity: 0.8;
+}
+
+.carousel-control:hover {
+  opacity: 1;
+}
+
+/* Position the buttons on the left and right */
+#carousel-prev {
+  left: 10px;
+}
+
+#carousel-next {
+  right: 10px;
+}
